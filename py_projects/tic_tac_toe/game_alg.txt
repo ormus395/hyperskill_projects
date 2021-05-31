@@ -1,0 +1,58 @@
+tic tac toe
+data:
+	game_over: determines wether or not to end the game
+	grid: array of arrays that is the gane board
+	turn: determines whos turn it is, for token printing
+	result: winner, or draw
+
+methods:
+	game: major game loop, has the while loop that controls game
+	get_coords: gets the board coords, also determines validity
+	place_token: takes coords, places the token into the grid
+	print_board: prints the grid to the console
+	
+
+def get_coords
+   row
+   col
+   input(Enter coordinates)
+
+   row = part of input
+   col = second half of input
+
+   while coords are not valid
+      ask for coords
+
+   return [cords]
+
+def print_board(game_state)
+   for row in game_state
+      print |
+      for col in row
+         print col
+      print |
+
+def place_token(game_state, row, col)
+   return game_state[row][col] = player_token
+
+def determine_result
+   check for row win
+   check for diag win
+   check for col win
+
+   return result
+	
+def game
+	game_over = False
+	grid = []
+	turn = 0 # 0 for player one, 1 for player two
+	result = ""
+
+   while not game_over
+      get_coords
+      
+      place coords
+
+      print new board
+
+      determine result
