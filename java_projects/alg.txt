@@ -1,0 +1,30 @@
+while still running
+   print menu 
+      show the seats
+      buy a ticket
+      statistics
+      exit
+   get menu option
+   
+   switch menu choice
+      1: show the seats
+         for row in cinema
+            for seat in row
+               print seat
+      2: buy a ticket
+         ask for row number
+          validate answer
+         ask for seat number
+            validate answer
+         if seat and row are acceptable
+            find ticket price
+            place seat
+            print new results
+      3: statistics
+         print number of sold tickets
+         print number of sold tickets as percentage of total
+         current income
+         total income (how much money will the theater make if all seats sell out)
+      0: exit
+         terminate the program
+quit
